@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MovieDict - Best website to search movie details with ease.">
+
+  <title> MovieDict </title>
+  
+  <!-- HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <h1 id="site-name">
+      MovieDict
+    </h1> 
+    
+    <p>
+      Best website to search for movies details 
+    </p>
+    
+    <div id="search-bar">
+     
+      <input type="search" name="search" class="search" id="search" placeholder="Enter movie title">
+     
+     <input type="text" name="plot" id="plot" placeholder="Movie plot ( short or full )">
+
+      <button id="search-btn">
+        Search 
+      </button
+      
+    </div>
+    
+    
+    <div class="overview">
+      
+      <div class="image-wrap">
+        <img src="" alt="Fetching movie image" id="movie-poster">
+      </div>
+      
+      <div class="detail">
+        <h1 id="title">
+          
+        </h1> 
+        
+        <ul id="basic-info">
+          <li id="type">
+            
+          </li>
+          <li id="rating">
+            
+          </li>
+          <li id="runtime">
+            
+          </li>
+        </ul>
+        
+        <p id="movie-plot">
+          
+        </p>
+        
+        <ul id="other-info">
+          <li id="year">
+            
+          </li>
+          <li id="genre">
+            
+          </li> 
+          <li id="lang">
+            
+          </li>
+          <li id="actors">
+            
+          </li>
+          <li id="writer">
+            
+          </li>
+        </ul>
+        
+      </div>
+      
+    </div>
+    
+  </main>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
