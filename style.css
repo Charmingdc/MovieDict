@@ -33,7 +33,7 @@ main {
 
 #search-bar {
   width: 90%;
-  height: auto;
+  height: 11rem;
   padding: 1rem;
   margin: 1rem 0rem;
   background: rgb(22, 23, 35);
